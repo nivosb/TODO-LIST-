@@ -1,0 +1,118 @@
+*{
+	margin:0;
+	padding:0;
+	font-family:'slise';
+}
+
+@font-face {
+   font-family:'Slise';
+   src: url('../fonts/slise.ttf');
+}
+@font-face{
+	font-family:'strong';
+   	src:url('../fonts/proxbold.ttf');
+}
+
+.upborder{
+	width:100%;
+	height:10px;
+	background-color:#0aba9b;
+}
+
+.wrap{
+	width:750px;
+	max-width:90%;
+	margin:0 auto;
+}
+
+.line{
+	width:180px;
+	height:5px;
+	background-color:black;
+	margin-bottom:80px;
+}
+
+.main-header{
+	padding-top:80px;
+	margin-bottom:45px;
+
+}
+
+.main-header h1{
+	text-transform: uppercase;
+	font-size:3.8em;
+	float:left;
+	font-family:'slise'
+
+}
+
+span{
+	font-family:'strong';
+}
+
+.clear{
+	clear: both;
+}
+
+img{
+	padding-top:20px;
+	float: right;
+	position:relative;	
+}
+.the-box{
+	position:relative;
+}
+
+textarea{
+	padding:5px;
+	font-size:1em;
+	width:90%;
+	border-radius:10px;
+	box-shadow: 0px 1px 18px 0px rgba(1, 1, 1, 0.34);
+	font-family:'slise';
+	color: #c0c0c0;
+}
+
+form{
+	margin-bottom:5px;
+}
+
+.but {
+margin-top:15px;
+margin-bottom:80px;
+
+}
+
+.postBut{
+  background-color: rgb(10, 186, 155);
+  border-radius: 10px;
+  width: 70px;
+  height: 32px;
+  color: white;
+  font-size:1.1em;
+  position: absolute;
+  right:65px;
+  text-align: center;
+  padding-top:10px;
+}
+
+
+.posts li{
+	padding-left:10px;
+	font-family:'slise';
+	color: #c0c0c0;
+	width:610px;
+	max-width:90%;
+	height:50px;
+	border-radius:10px;
+	box-shadow: 0px 1px 18px 0px rgba(1, 1, 1, 0.34);
+	margin-bottom:25px;
+	list-style: none;
+	line-height:40px;
+}
+
+
+
+
+
+
